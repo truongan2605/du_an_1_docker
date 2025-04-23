@@ -588,7 +588,7 @@
                             ?>
                                 <?php $shortName = mb_strimwidth($user['ten'], 0, 15, '...'); ?>
                                 <span>Xin chào, <?= htmlspecialchars($shortName) ?></span>
-                                <a href="<?= BASE_URL . '?act=logout' ?>" style="color: red; margin-left: 10px;">Đăng xuất</a>
+                                <a href="<?= BASE_URL . '?act=logout' ?>" style="color: red; margin-left: 10px;">Đăng xuất </a>
                             <?php elseif ($user['chuc_vu_id'] == 1): // Chỉ hiển thị cho admin 
                             ?>
                                 <a href="<?= BASE_URL . '?act=dang_ki' ?>">
@@ -630,7 +630,7 @@
                 </li>
                 <li>
                     <a href="index.php">
-                        <p>Danh mục sản phẩm</p>
+                        <p>Danh mục sản phẩm </p>
                     </a>
                 </li>
                 <li>

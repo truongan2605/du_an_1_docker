@@ -253,8 +253,8 @@ class HomeController
 
                 if ($user['chuc_vu_id'] == 1) {
                     $_SESSION['user_admin'] = $user;
-                    // var_dump($_SESSION['user_admin']);die;
-                    // header('location:' . BASE_URL_AMIN);
+                    // var_dump($_SESSION['user_admin']);
+                    header('location:' . BASE_URL_AMIN);
                 } elseif ($user['chuc_vu_id'] == 3) {
                     $_SESSION['user_quanli'] = $user;
 
