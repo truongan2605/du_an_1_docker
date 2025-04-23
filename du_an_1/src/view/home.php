@@ -630,7 +630,7 @@
                 </li>
                 <li>
                     <a href="index.php">
-                        <p>Danh mục sản phẩm</p>
+                        <p>Danh mục sản phẩm test nhé </p>
                     </a>
                 </li>
                 <li>
